@@ -19,9 +19,7 @@ void print_number(int n)
 	{
 		temp = n;
 	}
-
 	number = temp;
-
 	while (number >= 10)
 	{
 		number = number / 10;
@@ -30,12 +28,10 @@ void print_number(int n)
 	digits = digit + 1;
 	power = 1;
 	i = 1;
-
 	while (i < digits)
 	{
 		power = power * 10;
-		i++;
-	}
+		i++;}
 	j = power;
 	while (j >= 1)
 	{
